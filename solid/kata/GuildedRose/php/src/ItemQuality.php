@@ -63,4 +63,12 @@ final class ItemQuality
     {
         return new ItemQuality(self::MIN_VALUE);
     }
+
+    /**
+     * @return bool
+     */
+    public function isGreaterThan(int $quality): bool
+    {
+        return $this->value > $quality;
+    }
 }

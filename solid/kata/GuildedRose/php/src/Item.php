@@ -71,6 +71,15 @@ abstract class Item
     }
 
     /**
+     * @param int $quality
+     * @return bool
+     */
+    public function hasHigherQualityThan(int $quality): bool
+    {
+        return $this->quality->isGreaterThan($quality);
+    }
+
+    /**
      * @return void
      */
     public function increaseQuality(): void

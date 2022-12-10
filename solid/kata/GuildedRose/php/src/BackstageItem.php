@@ -9,9 +9,9 @@ use Exception;
 final class BackstageItem extends Item
 {
     /** @var int */
-    private const DOUBLE_QUALITY_INCREASE_SELL_IN_THRESHOLD = 10;
+    private const DOUBLE_QUALITY_INCREASE_SELL_IN_THRESHOLD = 11;
     /** @var int */
-    private const TRIPLE_QUALITY_INCREASE_SELL_IN_THRESHOLD = 5;
+    private const TRIPLE_QUALITY_INCREASE_SELL_IN_THRESHOLD = 6;
     /** @var int */
     private const QUALITY_RESET_SELL_IN_THRESHOLD = 0;
 
