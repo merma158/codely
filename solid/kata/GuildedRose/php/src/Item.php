@@ -108,6 +108,6 @@ abstract class Item
      */
     public function __toString(): string
     {
-        return "{$this->name->getName()}, {$this->sellIn->getQuantity()}, {$this->quality}";
+        return "{$this->name->getName()}, {$this->sellIn->getQuantity()}, {$this->quality->getQuality()}";
     }
 }

@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace GildedRose;
 
-use Exception;
-
 final class ItemSellin
 {
     /** @var int */

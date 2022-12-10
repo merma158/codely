@@ -33,6 +33,14 @@ final class ItemQuality
     }
 
     /**
+     * @return int
+     */
+    public function getQuality()
+    {
+        return $this->value;
+    }
+
+    /**
      * @return ItemQuality
      */
     public function increase(): ItemQuality
