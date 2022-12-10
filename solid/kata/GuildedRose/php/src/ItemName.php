@@ -32,6 +32,14 @@ final class ItemName
     }
 
     /**
+     * @return string
+     */
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    /**
      * @return bool
      */
     public function isAgedBrie(): bool

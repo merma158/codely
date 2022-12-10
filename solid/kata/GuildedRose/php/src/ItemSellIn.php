@@ -21,6 +21,14 @@ final class ItemSellin
     }
 
     /**
+     * @return int
+     */
+    public function getQuantity()
+    {
+        return $this->value;
+    }
+
+    /**
      * @return ItemSellIn
      */
     public function decrease(): ItemSellIn
